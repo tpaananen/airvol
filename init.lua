@@ -31,11 +31,11 @@ local function enforceVolume(attemptsLeft)
 
     current:setVolume(TARGET_VOLUME)
     local actual = round(current:volume(), 0)
-    local max = MAX_ATTEMPTS + 1
-    print("Attempt " .. (max - attemptsLeft) .. ": tried " .. TARGET_VOLUME .. ", actual " .. actual)
+    local attempt = MAX_ATTEMPTS + 1 - attemptsLeft
+    print("Attempt " .. attempt .. ": tried " .. TARGET_VOLUME .. ", actual " .. actual)
 
     if actual == TARGET_VOLUME then
-        print("Success: volume locked at " .. actual .. " after " .. (max - attemptsLeft) .. " attempt(s)")
+        print("Success: volume locked at " .. actual .. " after " .. attempt .. " attempt(s)")
         hs.alert.show(name .. " connected, volume set to " .. TARGET_VOLUME)
         return
     end
