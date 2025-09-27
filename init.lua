@@ -1,7 +1,7 @@
 local TARGET_VOLUME = 15        -- your desired target volume
 local MAX_ATTEMPTS  = 10        -- number of times to retry to set the volume if the device reports other than desired volume
 local RETRY_DELAY   = 0.2       -- retry delay in seconds
-local DEVICE_NAME   = "airpods" -- matches by "contains"
+local DEVICE_NAME   = "airpods" -- matches by "contains" case insensitive
 
 local lastDeviceName = ""
 
