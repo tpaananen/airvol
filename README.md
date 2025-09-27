@@ -27,6 +27,7 @@ If you are seeing this issue with your devices, please report the issue via [App
 ## Installation
 
 Install Hammerspoon for macos, see instructions in their repository: <https://github.com/Hammerspoon/hammerspoon>
+If you want Hammerspoon to start when you login, you need to set that also manually.
 
 Save [init.lua](https://github.com/tpaananen/airvol/blob/main/init.lua) file to `~/.hammerspoon/init.lua`
 
