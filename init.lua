@@ -1,10 +1,11 @@
-local TARGET_VOLUME = 15 -- set your target volume
-local MAX_ATTEMPTS  = 10
-local RETRY_DELAY   = 0.2
-local DEVICE_NAME   = "airpods"
+local TARGET_VOLUME = 15        -- your desired target volume
+local MAX_ATTEMPTS  = 10        -- number of times to retry to set the volume if the device reports other than desired volume
+local RETRY_DELAY   = 0.2       -- retry delay in seconds
+local DEVICE_NAME   = "airpods" -- matches by "contains"
 
 local lastDeviceName = ""
 
+-- round the volume read from device, device returns volume as floating point number which may have typical "rounding issues"
 local function round(num, numDecimalPlaces)
     local mult = 10 ^ (numDecimalPlaces or 0)
     return math.floor(num * mult + 0.5) / mult
