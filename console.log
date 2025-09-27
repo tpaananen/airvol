@@ -1,0 +1,100 @@
+# Below is example log that Hammerspoon outputs in their console.
+
+2025-09-24 20:12:52: Device changed: nil
+2025-09-24 20:12:52: Device changed: MacBook Air Speakers
+2025-09-24 20:13:02: Device changed: AirPods Pro 2
+2025-09-24 20:13:02: Attempt 1: tried 15, actual 50.0
+2025-09-24 20:13:02: -- Loading extension: timer
+2025-09-24 20:13:02: Attempt 2: tried 15, actual 15.0
+2025-09-24 20:13:02: Success: volume locked at 15.0 after 2 attempt(s)
+2025-09-24 20:19:48: Device changed: AirPods Pro 3
+2025-09-24 20:19:48: Attempt 1: tried 15, actual 50.0
+2025-09-24 20:19:48: Attempt 2: tried 15, actual 15.0
+2025-09-24 20:19:48: Success: volume locked at 15.0 after 2 attempt(s)
+2025-09-24 20:20:42: Device changed: nil
+2025-09-24 20:20:42: Device changed: AirPods Pro 2
+2025-09-24 20:20:42: Attempt 1: tried 15, actual 15.0
+2025-09-24 20:20:42: Success: volume locked at 15.0 after 1 attempt(s)
+2025-09-24 20:21:10: Device changed: AirPods Max
+2025-09-24 20:21:10: Attempt 1: tried 15, actual 50.0
+2025-09-24 20:21:11: Attempt 2: tried 15, actual 15.0
+2025-09-24 20:21:11: Success: volume locked at 15.0 after 2 attempt(s)
+2025-09-24 20:22:07: Device changed: nil
+2025-09-24 20:22:07: Device changed: AirPods Pro 2
+2025-09-24 20:22:07: Attempt 1: tried 15, actual 15.0
+2025-09-24 20:22:07: Success: volume locked at 15.0 after 1 attempt(s)
+2025-09-24 20:28:23: -- Lazy extension loading enabled
+2025-09-24 20:28:23: -- Loading ~/.hammerspoon/init.lua
+2025-09-24 20:28:23: -- Loading extension: audiodevice
+2025-09-24 20:28:23: -- Done.
+2025-09-24 20:28:27: Device changed: MacBook Air Speakers
+2025-09-24 20:28:29: Device changed: AirPods Pro 2
+2025-09-24 20:28:29: -- Loading extension: alert
+2025-09-24 20:28:29: Attempt 1: tried 15, actual 15.0
+2025-09-24 20:28:29: Success: volume locked at 15.0 after 1 attempt(s)
+2025-09-24 20:28:43: Device changed: AirPods Pro 3
+2025-09-24 20:28:43: Attempt 1: tried 15, actual 50.0
+2025-09-24 20:28:43: -- Loading extension: timer
+2025-09-24 20:28:43: Attempt 2: tried 15, actual 50.0
+2025-09-24 20:28:43: Attempt 3: tried 15, actual 15.0
+2025-09-24 20:28:43: Success: volume locked at 15.0 after 3 attempt(s)
+2025-09-24 20:29:20: -- Lazy extension loading enabled
+2025-09-24 20:29:20: -- Loading ~/.hammerspoon/init.lua
+2025-09-24 20:29:20: -- Loading extension: audiodevice
+2025-09-24 20:29:20: -- Done.
+2025-09-24 20:29:28: Device changed: MacBook Air Speakers
+2025-09-24 20:29:30: Device changed: AirPods Pro 2
+2025-09-24 20:29:30: -- Loading extension: alert
+2025-09-24 20:29:30: Attempt 1: tried 15, actual 15.0
+2025-09-24 20:29:30: Success: volume locked at 15.0 after 1 attempt(s)
+2025-09-24 20:29:37: Device changed: AirPods Pro 3
+2025-09-24 20:29:37: Attempt 1: tried 15, actual 50.0
+2025-09-24 20:29:37: -- Loading extension: timer
+2025-09-24 20:29:37: Attempt 2: tried 15, actual 15.0
+2025-09-24 20:29:37: Success: volume locked at 15.0 after 2 attempt(s)
+2025-09-24 20:31:33: -- Lazy extension loading enabled
+2025-09-24 20:31:33: -- Loading ~/.hammerspoon/init.lua
+2025-09-24 20:31:33: -- Loading extension: audiodevice
+2025-09-24 20:31:33: -- Done.
+2025-09-24 20:31:36: Device changed: AirPods Pro 2
+2025-09-24 20:31:36: -- Loading extension: alert
+2025-09-24 20:31:36: Attempt 1: tried 15, actual 15.0
+2025-09-24 20:31:36: Success: volume locked at 15.0 after 1 attempt(s)
+2025-09-24 20:31:42: Device changed: AirPods Pro 3
+2025-09-24 20:31:42: Attempt 1: tried 15, actual 15.0
+2025-09-24 20:31:42: Success: volume locked at 15.0 after 1 attempt(s)
+2025-09-24 20:31:47: Device changed: AirPods Pro 2
+2025-09-24 20:31:47: Attempt 1: tried 15, actual 15.0
+2025-09-24 20:31:47: Success: volume locked at 15.0 after 1 attempt(s)
+2025-09-24 20:31:55: Device changed: nil
+2025-09-24 20:31:55: Device changed: MacBook Air Speakers
+2025-09-24 20:32:09: Device changed: AirPods Pro 2
+2025-09-24 20:32:09: Attempt 1: tried 15, actual 50.0
+2025-09-24 20:32:09: -- Loading extension: timer
+2025-09-24 20:32:09: Attempt 2: tried 15, actual 50.0
+2025-09-24 20:32:10: Attempt 3: tried 15, actual 15.0
+2025-09-24 20:32:10: Success: volume locked at 15.0 after 3 attempt(s)
+2025-09-24 20:32:46: -- Lazy extension loading enabled
+2025-09-24 20:32:46: -- Loading ~/.hammerspoon/init.lua
+2025-09-24 20:32:46: -- Loading extension: audiodevice
+2025-09-24 20:32:46: -- Done.
+2025-09-24 20:32:54: -- Lazy extension loading enabled
+2025-09-24 20:32:54: -- Loading ~/.hammerspoon/init.lua
+2025-09-24 20:32:54: -- Loading extension: audiodevice
+2025-09-24 20:32:54: -- Done.
+2025-09-24 20:32:57: Device changed: MacBook Air Speakers
+2025-09-24 20:32:59: Device changed: AirPods Pro 2
+2025-09-24 20:32:59: -- Loading extension: alert
+2025-09-24 20:32:59: Attempt 1: tried 15, actual 15.0
+2025-09-24 20:32:59: Success: volume locked at 15.0 after 1 attempt(s)
+2025-09-24 20:33:02: Device changed: nil
+2025-09-24 20:33:02: Device changed: MacBook Air Speakers
+2025-09-24 20:33:12: Device changed: AirPods Pro 2
+2025-09-24 20:33:12: Attempt 1: tried 15, actual 50.0
+2025-09-24 20:33:12: -- Loading extension: timer
+2025-09-24 20:33:12: Attempt 2: tried 15, actual 15.0
+2025-09-24 20:33:12: Success: volume locked at 15.0 after 2 attempt(s)
+2025-09-24 20:34:31: Device changed: MacBook Air Speakers
+2025-09-24 20:34:33: Device changed: AirPods Pro 2
+2025-09-24 20:34:33: Attempt 1: tried 15, actual 15.0
+2025-09-24 20:34:33: Success: volume locked at 15.0 after 1 attempt(s)
