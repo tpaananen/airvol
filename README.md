@@ -32,6 +32,10 @@ Save [init.lua](https://github.com/tpaananen/airvol/blob/main/init.lua) file to 
 
 Start Hammerspoon and load the script.
 
-The script (re)tries to set the desired level if Macbook / macos races with the initial set with their 50 % level.
+You can monitor the behavior of the script by looking at the console output of Hammerspoon (open from the Hammerspoon menu icon -> `Console...`
+
+The script will "notify" you by putting out a sort alert that the volume has been set when it's set and the same for total failure.
+
+## Credits
 
 Originally found and modified from this [Reddit post](https://www.reddit.com/r/MacOS/comments/16wkyvu/comment/n6tli2g).
