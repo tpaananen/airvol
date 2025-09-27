@@ -13,6 +13,7 @@ This could potentially lead to hearing damage especially with young kids.
 2. Turn on Macbook bluetooth device
 3. Connect AirPods to the Macbook (either manually or let them connect automatically depending on your settings)
 4. See that volume is set to 50, slider position is in the middle
+  - The script may succeed on first try, typically it won't
 
 See also example [console.log](https://github.com/tpaananen/airvol/blob/main/console.log) how Macbook behaves when AirPods connect as default device.
 
