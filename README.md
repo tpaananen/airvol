@@ -39,4 +39,4 @@ The script will "notify" you by putting out a soft alert that the volume has bee
 
 ## Credits
 
-Originally found and modified from this [Reddit post](https://www.reddit.com/r/MacOS/comments/16wkyvu/comment/n6tli2g).
+Originally found from this [Reddit post](https://www.reddit.com/r/MacOS/comments/16wkyvu/comment/n6tli2g) and modified to contain the retry logic etc. when I noticed that the initial set may not succeed.
