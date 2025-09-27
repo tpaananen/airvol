@@ -10,14 +10,14 @@ This could potentially lead to hearing damage especially with young kids.
 ### How to reproduce the issue?
 
 1. Turn off Macbook bluetooth device
-2. Turn on Macbook bluetooh device
+2. Turn on Macbook bluetooth device
 3. Connect AirPods to the Macbook (either manually or let them connect automatically depending on your settings)
 4. See that volume is set to 50, slider position is in the middle
 
 ### Workaround
 
 Since Apple is completely incompetent to fix this years old major issue (I have personally reported this multiple times), we are forced to work around the issue by using 3rd party tools.
-If you have this issue, please report the issue via [Apple's feedback channels](https://www.apple.com/feedback/). If more people report, maybe they start to respect peoples hearing and physical wellbeing.
+If you have this issue, please report the issue via [Apple's feedback channels](https://www.apple.com/feedback/). If more people report, maybe they begin to respect people's hearing and physical well-being.
 
 [init.lua](https://github.com/tpaananen/airvol/blob/main/init.lua) tries to force the initial volume level to your desired level using retries if it detects that the call to set the volume is not respected by macos / Macbook.
 
