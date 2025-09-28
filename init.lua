@@ -16,7 +16,6 @@ local function setDeviceVolume(device, target)
     local actual = round(device:volume(), 0)
     if actual <= target then
         device:setVolume(actual)
-        target = actual
     else
         device:setVolume(target)
     end
