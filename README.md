@@ -5,7 +5,7 @@ Hammerspoon script to set AirPods intial volume to desired level instead of defa
 ## Issue with Macbooks
 
 Macbook Air / Pro sets the initial volume level 50.0 for AirPods Pro 2 and 3 / Max (that's what I have, maybe also with other AirPods).
-This could potentially lead to hearing damage especially with young kids.
+This could potentially lead to hearing damage especially with young kids if parents are not monitoring the levels when setting up the devices for their kids.
 
 ### How to reproduce the issue?
 
