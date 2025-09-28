@@ -34,6 +34,7 @@ Install Hammerspoon for macos, see instructions in their repository: <https://gi
 If you want Hammerspoon to start when you login, you need to set that also manually.
 
 Save [init.lua](https://github.com/tpaananen/airvol/blob/main/init.lua) file to `~/.hammerspoon/init.lua`
+
 Check and set desired initial volume level in init.lua file! You can adjust the other parameters also if needed. 
 
 Start Hammerspoon and load the script.
