@@ -47,7 +47,7 @@ local function enforceVolume(attemptsLeft)
 
     if volume <= TARGET_VOLUME then
         print("Success: volume locked at " .. volume .. " after " .. attempt .. " attempt(s)")
-        hs.alert.show(name .. " connected, volume set to " .. TARGET_VOLUME)
+        hs.alert.show(name .. " connected, volume set to " .. volume)
         return
     end
 
