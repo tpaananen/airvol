@@ -22,7 +22,7 @@ See also example [console.log](https://github.com/tpaananen/airvol/blob/main/con
 Since Apple is refusing to fix this years old major issue (I have personally reported this multiple times), we are forced to work around the issue by using 3rd party tools.
 If you are seeing this issue with your devices, please report the issue via [Apple's feedback channels](https://www.apple.com/feedback/). If more people report, maybe they begin to respect people's hearing and physical well-being.
 
-[init.lua](https://github.com/tpaananen/airvol/blob/main/init.lua) tries to force the initial volume level to your desired level using retries if it detects that the call to set the volume is not respected by macos / Macbook.
+[init.lua](https://github.com/tpaananen/airvol/blob/main/init.lua) tries to force the initial volume level to your desired level using retries if it detects that the call to set the volume is not respected by macos / Macbook. If the initial volume level reported by the device is less than the desired level, then that level is tried to be respected.
 
 ## Installation
 
