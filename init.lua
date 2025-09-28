@@ -11,14 +11,27 @@ local function round(num, numDecimalPlaces)
     return math.floor(num * mult + 0.5) / mult
 end
 
+-- set device volume to target volume or less if it initially reports less that the target level
+local function setDeviceVolume(device, target)
+    local actual = round(device:volume(), 0)
+    if actual <= target then
+        device:setVolume(actual)
+        target = actual
+    else
+        device:setVolume(target)
+    end
+
+    return round(device:volume(), 0)
+end
+
 local function enforceVolume(attemptsLeft)
-    local current = hs.audiodevice.defaultOutputDevice()
-    if not current then
+    local device = hs.audiodevice.defaultOutputDevice()
+    if not device then
         print("Warning: defaultOutputDevice returned nil")
         return
     end
 
-    local name = current:name()
+    local name = device:name()
     if not name then
         print("Warning: device name is nil")
         return
@@ -29,22 +42,22 @@ local function enforceVolume(attemptsLeft)
         return
     end
 
-    current:setVolume(TARGET_VOLUME)
-    local actual = round(current:volume(), 0)
     local attempt = MAX_ATTEMPTS + 1 - attemptsLeft
-    print("Attempt " .. attempt .. ": tried " .. TARGET_VOLUME .. ", actual " .. actual)
+    local volume = setDeviceVolume(device, TARGET_VOLUME)
 
-    if actual == TARGET_VOLUME then
-        print("Success: volume locked at " .. actual .. " after " .. attempt .. " attempt(s)")
+    if volume <= TARGET_VOLUME then
+        print("Success: volume locked at " .. volume .. " after " .. attempt .. " attempt(s)")
         hs.alert.show(name .. " connected, volume set to " .. TARGET_VOLUME)
         return
     end
 
+    print("Attempt " .. attempt .. ": tried " .. TARGET_VOLUME .. ", actual " .. volume)
+
     if attemptsLeft > 1 then
         hs.timer.doAfter(RETRY_DELAY, function() enforceVolume(attemptsLeft - 1) end)
     else
-        print("Final attempt done, volume is " .. actual)
-        hs.alert.show(name .. " connected, volume targetting to " .. TARGET_VOLUME .. " did not succeed. Current volume " .. actual)
+        print("Final attempt done, volume is " .. volume)
+        hs.alert.show(name .. " connected, volume targetting to " .. TARGET_VOLUME .. " did not succeed. Current volume " .. volume)
     end
 end
 
