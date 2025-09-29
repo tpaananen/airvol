@@ -1,6 +1,6 @@
 # Description
 
-Hammerspoon script to set AirPods intial volume to desired level instead of default level 50.0 that macos / macbooks set.
+Hammerspoon script to set AirPods intial volume to desired level or less instead of default level 50.0 that macos / macbooks set.
 
 ## Important
 
