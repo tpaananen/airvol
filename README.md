@@ -4,7 +4,7 @@ Hammerspoon script to set AirPods intial volume to desired level instead of defa
 
 ## Important
 
-Please test with your devices carefully with proper volume levels. This script is provided as is without any warranty or guarantee to work with your devices.
+Please test with your devices carefully with proper volume levels. This script is provided as is without any warranty or guarantee to work with your devices. Use at your own risk.
 
 ## Issue with Macbooks
 
@@ -33,7 +33,8 @@ If you are seeing this issue with your devices, please report the issue via [App
 - Install Hammerspoon for macos, see instructions in their repository: <https://github.com/Hammerspoon/hammerspoon>.
 If you want Hammerspoon to start when you login, you need to set that also manually.
 - Save [init.lua](https://github.com/tpaananen/airvol/blob/main/init.lua) file to `~/.hammerspoon/init.lua`
-- Check and set desired initial volume level in init.lua file! You can adjust the other parameters also if needed. 
+- Review the script mentioned above
+  - Check and set desired initial volume level in init.lua file! You can adjust the other parameters also if needed. 
 - Start Hammerspoon and load the script.
 
 You can monitor the behavior of the script by looking at the console output of Hammerspoon. Open console from Hammerspoon menu icon -> `Console...`
